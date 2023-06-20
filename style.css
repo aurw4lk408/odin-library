@@ -1,0 +1,23 @@
+.body {
+}
+
+.book_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container {
+    background-color: rgb(234, 234, 234);
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.card {
+    background-color: white;
+}
